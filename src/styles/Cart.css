@@ -1,0 +1,11 @@
+.lmj-cart {
+  padding: 32px;
+  color: white;
+  background-color: #31b572;
+  border-radius: 8px;
+  min-width: 260px;
+}
+
+.lmj-cart h2 {
+  margin-top: 0;
+}

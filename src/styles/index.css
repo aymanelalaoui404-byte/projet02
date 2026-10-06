@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.lmj-main {
+  display: flex;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.lmj-content {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.lmj-content h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .lmj-main {
+    flex-direction: column;
+    padding: 16px;
+  }
+}
